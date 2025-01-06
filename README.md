@@ -8,7 +8,14 @@ The dataset used for training is located at `data/archive.zip`. It's retrieved f
 A pre-trained model using the U-Net architecture with DDPM on 50 epochs is located at `model/pokemon.pth` (this is the state_dict of the model). The full code is in `Diffusion.ipynb`
 
 ## Sample outputs
-The sample outputs are resized to 64x64
+The sample outputs are resized to 64x64. Below are some generated samples
+
+![Figure_2](https://github.com/user-attachments/assets/223c91e3-5636-412f-baa2-8f57bf3b6d8e)
+
+![Figure_3](https://github.com/user-attachments/assets/4cb30f53-1663-4917-be22-1a0076c837d0)
+
+![Figure_1](https://github.com/user-attachments/assets/f772ef04-9755-4d41-91ea-6bf935e27fdb)
+
 
 ## Generate your own Pokemon!
 To generate your own Pokemons
