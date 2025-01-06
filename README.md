@@ -25,4 +25,4 @@ To generate your own Pokemons
 3. Open the folder `pokemon_generator_diffusion`
 4. Run `make generate`
 
-The generation process should take about 1 to 2 minutes
+The generation process should take about 1 to 2 minutes depending on the device. Sometimes the model generations a completely white image, this is because the model can perform poorly occasionally, you can try to generate it again
