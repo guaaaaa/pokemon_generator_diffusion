@@ -11,7 +11,7 @@ model = UNet(device=device)
 # model.load_state_dict(torch.load("model/pokemon.pth"))
 
 # For cpu device
-model.load_state_dict(torch.load("model/pokemon.pth", map_location=torch.device("cpu")))
+model.load_state_dict(torch.load("model/pokemon.pth", map_location=torch.device(device)))
 
 # Parameters
 img_size = 64
