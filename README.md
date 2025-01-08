@@ -45,7 +45,8 @@ Follow these steps to generate your own Pokémon:
 1. Clone this repository to your local environment
 2. Create a Python virtual environment and install torch and matplotlib in it
 3. Open the folder by running `cd pokemon_generator_diffusion`
-4. Run `make generate`
+4. To use the DDPM sampler, run `make generate_ddpm`
+   To use the DDIM sampler, run `make generate_ddim`
 
 * Time: The generation process typically takes 1 to 2 minutes, depending on your device.
 * Occasional Issues: The model may sometimes produce completely white images due to occasional performance issues. If this happens, simply run the generation process again.
